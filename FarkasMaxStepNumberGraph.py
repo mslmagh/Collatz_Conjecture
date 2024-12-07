@@ -27,4 +27,5 @@ def plot_farkas_sequence(num):
     plt.grid(True)
     plt.show()
 
+
 plot_farkas_sequence(851967)

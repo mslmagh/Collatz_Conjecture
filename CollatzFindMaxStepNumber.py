@@ -22,8 +22,9 @@ def find_max_collatz(limit):
     return number_with_max_steps, max_steps
 
 
+
 limit = 1_000_000
 number, steps = find_max_collatz(limit)
 
-print(f"En çok adıma sahip olan sayı: {number}")
-print(f"Adım sayısı: {steps}")
+print(f"The number of max step number: {number}")
+print(f"Number of step: {steps}")
